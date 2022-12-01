@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Lato:ital,wght@0,300;0,400;0,700;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkalami', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #FEC031;
+    text-decoration-thickness: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.main container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar {
+    flex: 1;
+    /* padding: 20px; */
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-items: center;
+    /* justify-content:flex-end; */
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.ul-social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 4%;
+}
+
+.social-icon {
+    /* width: 90px; */
+    /* height: 60px; */
+    margin: 0 -10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    fill: #405CF5 !important;
+}
+
+.jane-faram {
+    display: inline-block;
+    font-family: rubik;
+    flex: 1;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    align-self: center;
+    padding-left: 4%;
+}
+
+
+.intro-section {
+
+}
+
+
+h1 {
+    font: rubik;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+h2 {
+    font: rubik;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+/* fix this style for h3   */
+h3 {
+    position: relative;
+    top: -10px;
+    left: 0%;
+}
+
+p{
+font: rubik;
+font-weight: 20px;
+font-size: 20px;
+}
+
+
+.contact-me-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #405CF5;
+    color: white;
+    border: none;
+    padding: 3%;
+    font-size: 20px;
+    margin-top: 10%;
+    /* align-items:baseline; */
+    justify-items: baseline;
+    cursor: pointer;
+    width: 15vw;
+    height: 6vh;
+}
+
+.connect-linked-in-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #405CF5;
+    color: white;
+    border: none;
+    padding: 3%;
+    font-size: 20px;
+    margin-top: 4%;
+    /* align-items:baseline; */
+    justify-items: baseline;
+    cursor: pointer;
+    /* width: 15vw; */
+    height: 6vh;
+}
+
+
+.button-text {
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.portrait-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.portrait-jane-faram {
+    width: 60%;
+    align-self: center;
+}
+
+
+.projects-header {
+    padding-top: -50%;
+    width: 100%;
+    margin: auto;
+    padding-left: 4%;
+}
+
+.grid-container-1 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
+    width: 100%;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 4% 4% 0% 4%;
+}
+
+.grid-container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    /* gap: 20px; */
+    gap: 10%;
+    padding: 4%;
+    align-items: baseline;
+}
+
+.grid-image {
+    width: 120%;
+    padding-bottom: 4%;
+}
+
+
+.grid-container-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    gap: 10%;
+    padding-top: 20px;
+    padding: 4%;
+    align-items: baseline;
+}
+
+.container-contact-me {
+    display: inline-block;
+    width: 100%;
+    padding: 4%;
+    flex-direction: column;
+}
+
+.cta-contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    border-radius: 10px;
+    background-color: #FBEFE0;
+}
+
+.cta-text {
+font-size: 20px;
+}
+
+.button-text {
+    font-size: 20px;
+}
+
+
+.email-me-btn {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #405CF5;
+    color: white;
+    width: 15vw;
+    height: 6vh;
+    border: none;
+    padding: 4%;
+    margin-top: 16%;
+    font-size: 20px;
+    justify-items: baseline;
+    cursor: pointer;
+}
+
+/* About page styling */
+
+.about-biography {
+    margin: 4%;
+}
+
+.about-biography ul li{
+    /* list-style:circle; */
+font-size: 20px;
+margin-left: 4%;
+}
+
+/* project page styling  */
+
+.projects-intro-block {
+margin-bottom: 4%;
+}
+
+.projects-skills-list ul li{
+    font-size: 20px;
+    margin-left: 4%;  
+}
+
+.projects-intro-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 4% 4% 0% 4%;
+}
+
+
+/* footer styling  */
+
+.footer {
+    width: 100%vw;
+    display: flex;
+    /* box-sizing: border-box; */
+    flex-wrap: row wrap;
+    /* padding: 50px; */
+    padding: 4%;
+    height: 20vh;
+    background-color: #405CF5;
+}
+
+
+
+.footer a {
+    color: white;
+    font-size: 20px;
+}
+
+.footer li {
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    padding: 4px 0px;
+}
+
+.footer>* {
+    flex: 1 100%;
+}
+
+
+.footer-btn {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #FBEFE0;
+    color: black;
+    border: none;
+    padding: 2%;
+    margin-bottom: 4%;
+    justify-items: baseline;
+    cursor: pointer;
+    width: 15vw;
+    height: 6vh;
+
+}
+
+.ul-social-icons-footer {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-start; */
+    flex-direction: row;
+    justify-items: flex-start;
+    /* justify-content: space-around; */
+    /* padding-left: 4%; */
+}
+
+.social-icon-footer {
+    padding: 0 40px 0px 0;
+}
+
+.footer li {
+    font: rubik;
+    font-size: 20px;
+}
+
+.footer li a {
+    font: rubik;
+    font-size: 20px;
+}
